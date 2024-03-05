@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+        <h3>Player Results</h3>
+    <ul>
+        {% for row in player_results %}
+            <li>{{ row }}</li>
+        {% endfor %}
+    </ul>
+
+    <h3>All Symbols</h3>
+    <ul>
+        {% for row in all_symbols %}
+            <li>{{ row }}</li>
+        {% endfor %}
+    </ul>
+
+</body>
+</html>
